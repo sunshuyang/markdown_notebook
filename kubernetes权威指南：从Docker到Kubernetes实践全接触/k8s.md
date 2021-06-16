@@ -134,5 +134,6 @@ cluster ip
 
 namespace 实现多租户的资源隔离，结合kubernetes的资源配额管理，限定不同的租户能占用的资源，cpu使用量，内存使用量  
 
-### Annotation 
+### Annotation  
+
 Annotation与Label 类似，也使用 key/ value 键值对的形式进行定义。 不同的是Label具有严格的命名规则，它定义的是 Kubernetes 对象的元数据（ Metadata）， 并且用于Label Selector。 而Annotation则是用户任意定义 的“ 附加” 信息， 以便于外部工具进行查找， 很多时候，Kubernetes的模块自身会通过Annotation 的方式标记资源对象的一些特殊信息。
